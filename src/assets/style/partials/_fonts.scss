@@ -1,0 +1,289 @@
+@font-face {
+  src: url('~fonts/sofiaproblack-webfont.eot');
+  src: url('~fonts/sofiaproblack-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproblack-webfont.woff') format('woff'),
+    url('~fonts/sofiaproblack-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproblack-webfont.svg#sofia_problack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProBlackItalic;
+  src: url('~fonts/sofiaproblack-italic-webfont.eot');
+  src: url('~fonts/sofiaproblack-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproblack-italic-webfont.woff') format('woff'),
+    url('~fonts/sofiaproblack-italic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproblack-italic-webfont.svg#sofia_problack_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProBold;
+  src: url('~fonts/sofiapro-bold-webfont.eot');
+  src: url('~fonts/sofiapro-bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiapro-bold-webfont.woff') format('woff'),
+    url('~fonts/sofiapro-bold-webfont.ttf') format('truetype'),
+    url('~fonts/sofiapro-bold-webfont.svg#sofia_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProBoldItalic;
+  src: url('~fonts/sofiapro-bolditalic-webfont.eot');
+  src: url('~fonts/sofiapro-bolditalic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiapro-bolditalic-webfont.woff') format('woff'),
+    url('~fonts/sofiapro-bolditalic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiapro-bolditalic-webfont.svg#sofia_probold_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProExtraLight;
+  src: url('~fonts/sofiaproextralight-webfont.eot');
+  src: url('~fonts/sofiaproextralight-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproextralight-webfont.woff') format('woff'),
+    url('~fonts/sofiaproextralight-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproextralight-webfont.svg#sofia_proextra_light')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProExtraLightItalic;
+  src: url('~fonts/sofiaproextralight-italic-webfont.eot');
+  src: url('~fonts/sofiaproextralight-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproextralight-italic-webfont.woff') format('woff'),
+    url('~fonts/sofiaproextralight-italic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproextralight-italic-webfont.svg#sofia_proextra_light_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProLight;
+  src: url('~fonts/sofiaprolight-webfont.eot');
+  src: url('~fonts/sofiaprolight-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaprolight-webfont.woff') format('woff'),
+    url('~fonts/sofiaprolight-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaprolight-webfont.svg#sofia_prolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProLightItalic;
+  src: url('~fonts/sofiaprolight-italic-webfont.eot');
+  src: url('~fonts/sofiaprolight-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaprolight-italic-webfont.woff') format('woff'),
+    url('~fonts/sofiaprolight-italic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaprolight-italic-webfont.svg#sofia_prolight_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProMedium;
+  src: url('~fonts/sofiapromedium-webfont.eot');
+  src: url('~fonts/sofiapromedium-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiapromedium-webfont.woff') format('woff'),
+    url('~fonts/sofiapromedium-webfont.ttf') format('truetype'),
+    url('~fonts/sofiapromedium-webfont.svg#sofia_promedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProMediumItalic;
+  src: url('~fonts/sofiapromedium-italic-webfont.eot');
+  src: url('~fonts/sofiapromedium-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiapromedium-italic-webfont.woff') format('woff'),
+    url('~fonts/sofiapromedium-italic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiapromedium-italic-webfont.svg#sofia_promedium_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProRegular;
+  src: url('~fonts/sofiaproregular-webfont.eot');
+  src: url('~fonts/sofiaproregular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproregular-webfont.woff') format('woff'),
+    url('~fonts/sofiaproregular-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproregular-webfont.svg#sofia_pro_regularregular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProRegularItalic;
+  src: url('~fonts/sofiaproregular-italic-webfont.eot');
+  src: url('~fonts/sofiaproregular-italic-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('~fonts/sofiaproregular-italic-webfont.woff') format('woff'),
+    url('~fonts/sofiaproregular-italic-webfont.ttf') format('truetype'),
+    url('~fonts/sofiaproregular-italic-webfont.svg#sofia_proregular_italic')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: SofiaProSemiBold;
+  src: url('~fonts/SofiaProSemiBold.otf');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: SofiaProSemiBoldItalic;
+  src: url('~fonts/SofiaProSemiBold-Italic.otf');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: SofiaProUltraLight;
+  src: url('~fonts/SofiaProUltraLight.otf');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+@font-face {
+  font-family: SofiaProUltraLightItalic;
+  src: url('~fonts/SofiaProUltraLight-Italic.otf');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+}
+//icons font
+@font-face {
+  font-family: 'drop';
+  src: url('~fonts/drop.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'drop2';
+  src: url('~fonts/drop2.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'drop' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon2 {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'drop2' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+.drop-arrow:before {
+  content: '\e900';
+}
+.drop-ask:before {
+  content: '\e901';
+}
+.drop-case:before {
+  content: '\e902';
+}
+.drop-check:before {
+  content: '\e903';
+}
+.drop-close:before {
+  content: '\e904';
+}
+.drop-collection:before {
+  content: '\e905';
+}
+.drop-dollar:before {
+  content: '\e906';
+}
+.drop-facebook:before {
+  content: '\e907';
+}
+.drop-gift:before {
+  content: '\e908';
+}
+.drop-home:before {
+  content: '\e909';
+}
+.drop-mail:before {
+  content: '\e90a';
+}
+.drop-partner:before {
+  content: '\e90b';
+}
+.drop-random:before {
+  content: '\e90c';
+}
+.drop-skin:before {
+  content: '\e90d';
+}
+.drop-star:before {
+  content: '\e90e';
+}
+.drop-steam:before {
+  content: '\e90f';
+}
+.drop-time:before {
+  content: '\e910';
+}
+.drop-twitter:before {
+  content: '\e911';
+}
+.drop-user:before {
+  content: '\e912';
+}
+.drop-vk:before {
+  content: '\e913';
+}
+.drop-youtube:before {
+  content: '\e914';
+}
+.drop-facebook2:before {
+  content: '\ea90';
+}
+
+.drop2-search:before {
+  content: "\e902";
+}
+
+.drop2-trash:before {
+  content: "\e901";
+}
+
+.drop2-keyboard_arrow_down:before {
+  content: "\e90b";
+}
+
+.drop2-keyboard_arrow_up:before {
+  content: "\e906";
+}

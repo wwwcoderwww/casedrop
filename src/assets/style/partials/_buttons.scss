@@ -1,0 +1,100 @@
+.gradient-btn {
+  line-height: 34px;
+  @include btn;
+}
+
+.hover-gradient-btn {
+  width: 120px;
+  line-height: 31px;
+  @include btn;
+  position: relative;
+  &:before {
+    content: 'Open';
+    line-height: 29px;
+    display: block;
+  }
+  span {
+    display: block;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    background: #282236;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border-radius: 30px;
+    transition: opacity .3s;
+    &:before {
+      content: attr(data-price);
+      display: block;
+      line-height: 30px;
+    }
+  }
+}
+
+.hover-gradient-btn.old-price {
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    &:before {
+      content: attr(data-price);
+      font-size: 11px;
+      color: $grey-text;
+      margin-right: 2px;
+      line-height: 29px;
+    }
+    &:after {
+      content: attr(data-old-price);
+      line-height: 35px;
+      margin-left: 2px;
+    }
+  }
+}
+.hover-gradient-btn:hover {
+  span {
+    opacity: 0;
+  }
+}
+
+.hover-btn {
+  @include btn;
+  position: relative;
+  line-height: 32px;
+  white-space: nowrap;
+  &:before {
+    content: attr(data-text);
+    position: absolute;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    background: #2c2438;
+    border-radius: 30px;
+    color: $light-grey-text;
+  }
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 -10px;
+  & > * {
+    margin: 0 10px;
+  }
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .btn-row {
+    flex-direction: column;
+    .custom-dropdown {
+    margin-bottom: 15px;
+    }
+  }
+}

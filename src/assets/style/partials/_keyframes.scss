@@ -1,0 +1,46 @@
+@keyframes inner-circle {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes pulsation {
+  20% {
+    transform: scale(0.8);
+    background: #82bf65;
+  }
+  80% {
+    transform: scale(1.2);
+    background: #92c87d;
+  }
+}
+
+@keyframes pulsation-shadow {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    background: #82bf65;
+    opacity: .5;
+  }
+  20% {
+    transform: translate(-50%, -50%) scale(0);
+    background: #82bf65;
+    opacity: .5;
+  }
+  80% {
+    transform: translate(-50%, -50%) scale(2);
+    background: #92c87d;
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    background: #92c87d;
+    opacity: 0;
+  }
+}
+
+.on-animation {
+  animation: inner-circle .5s !important;
+}

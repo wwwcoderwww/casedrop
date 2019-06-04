@@ -1,0 +1,47 @@
+
+.custom-checkbox-block {
+    cursor: pointer;
+    position: relative;
+    width: 19px;
+    height: 19px; }
+    .custom-checkbox-block input[type=checkbox] {
+      display: none; }
+    .custom-checkbox-block .check-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 2px;
+      z-index: 1; }
+      .custom-checkbox-block .check-bg:before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        bottom: 2px;
+        left: 2px;
+        right: 2px;
+        border-radius: 2px;
+        background: #2b2d40;
+        z-index: 2; }
+      .custom-checkbox-block .check-bg:after {
+        content: "\e903";
+        font-family: drop2;
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+        z-index: 4;
+        position: absolute;
+        top: -5px;
+        left: 1px;
+        display: none; }
+    .custom-checkbox-block input[type=checkbox]:checked ~ .check-bg:after {
+      display: inline-block; }
+    .custom-checkbox-block input[type=checkbox]:checked ~ .check-bg {
+      background: -webkit-gradient(linear, left top, right top, from(#ef2849), to(#7568e7));
+      background: linear-gradient(90deg, #ef2849 0%, #7568e7 100%); }
+      .custom-checkbox-block input[type=checkbox]:checked ~ .check-bg:before {
+        display: none; }
+  

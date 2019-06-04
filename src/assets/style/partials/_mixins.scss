@@ -1,0 +1,18 @@
+@mixin transform-left-center {
+  transform-origin: left center;
+  transition: all 0s;
+  transform: scale(1);
+  will-change: transform;
+}
+
+@mixin btn {
+  height: 35px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(90deg, #ef2849 0%, #7568e7 100%);
+}

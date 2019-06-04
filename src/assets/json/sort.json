@@ -1,0 +1,111 @@
+{
+    "type": [
+        {
+            "name": "All Weapons",
+            "value": ""
+        },
+        {
+            "name": "Rifles",
+            "value": "rifle"
+        },
+        {
+            "name": "Sniper",
+            "value": "sniper"
+        },
+        {
+            "name": "Shotgun",
+            "value": "shotgun"
+        },
+        {
+            "name": "Gun",
+            "value": "gun"
+        },
+        {
+            "name": "Submachine gun",
+            "value": "submachine_gun"
+        },
+        {
+            "name": "Machine gun",
+            "value": "machine_gun"
+        },
+        {
+            "name": "Knifes",
+            "value": "knife"
+        },
+        {
+            "name": "Gloves",
+            "value": "glove"
+        },
+        {
+            "name": "Sticker",
+            "value": "sticker"
+        }
+    ],
+    "rate": [
+        {
+            "name": "Any Skin Rarity",
+            "color": "",
+            "value": ""
+        },
+        {
+            "name": "Basic",
+            "color": "b0c3d9",
+            "value": "base"
+        },
+        {
+            "name": "Consumer", 
+            "color": "b0c3d9",
+            "value": "consumer"
+        },
+        {
+            "name": "Industrial quality",
+            "color": "5e98d9",
+            "value": "industrial"
+        },
+        {
+            "name": "Milspec",
+            "color": "4b69ff",
+            "value": "milspec "
+        },
+        {
+            "name": "Restricted",
+            "color": "8847ff",
+            "value": "restricted"
+        },
+        {
+            "name": "Classified",
+            "color": "d32ce6",
+            "value": "classified"
+        },
+        {
+            "name": "Covert", 
+            "color": "eb4b4b",
+            "value": "covert"
+        },
+        {
+            "name": "High quality",
+            "color": "4b69ff",
+            "value": "high"
+        },
+        {
+            "name": "Remarkable",
+            "color": "8847ff",
+            "value": "remarkable"
+        },
+        {
+            "name": "Exotic type", 
+            "color": "d32ce6",
+            "value": "exotic"
+        },
+        {
+            "name": "Contraband", 
+            "color": "e4ae39",
+            "value": "contraband"
+        },
+        {
+            "name": "Extraordinary type",
+            "color": "eb4b4b",
+            "value": "extraordinary"
+        }
+    ]
+}

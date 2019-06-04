@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 768px) {
+    .breadcrumb-row {
+      display: none; }
+    .board-title {
+      margin-top: 30px; } }
+  
+  @media screen and (max-width: 575px) {
+    .left-menu .main-menu {
+      -webkit-overflow-scrolling: touch; } }
+  
+  @media screen and (max-width: 374px) {
+    .board-title {
+      font-size: 13px; } }

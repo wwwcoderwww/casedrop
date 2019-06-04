@@ -1,0 +1,23 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@import '~normalize.css';
+
+@import 'partials/colors.scss';
+@import 'partials/_fonts.scss';
+@import 'partials/spacing.scss';
+@import 'partials/mixins.scss';
+@import 'partials/keyframes.scss';
+@import 'partials/_buttons.scss';
+@import 'partials/_mac.scss';
+@import 'partials/_inputs.scss';
+@import 'partials/_common.scss';
+@import 'partials/breadcrumb';
+@import 'partials/_custom_dropdown';
+// @import 'partials/checkbox_weapon';
+
+// PAGES
+@import 'page/faq';
+@import 'page/case_create';
+
+
+@import 'media';

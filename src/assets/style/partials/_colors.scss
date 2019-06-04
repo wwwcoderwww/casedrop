@@ -1,0 +1,49 @@
+$grey-text: #D2D2D2;
+$light-grey-text: #FAFBFF;
+$light-red: #EE2849;
+$green-color: #00EB12;
+$item-light-blue: #5F99D8;
+$item-blue: #4D6EFB;
+$item-red: #E84C4F;
+$item-violet: #8850FB;
+$item-yellow: #FCAD46;
+$dark-blue: #352b3b;
+$transition-time: .4s;
+
+$consumer: #5F99D8;
+//$consumer: #b0c3d9;
+$milspec: #4D6EFB;
+//$milspec: #4b69ff;
+$restricted: #8850FB;
+//$restricted: #8850FB;
+//$restricted: #8847ff;
+$classified: #8850FB;
+//$classified: #d32ce6;
+$covert: #E84C4F;
+//$covert: #eb4b4b;
+$base: #5F99D8;
+//$base: #b0c3d9;
+$high: #4D6EFB;
+//$high: #4b69ff;
+$exotic: #8850FB;
+//$exotic: #d32ce6;
+$extraordinary: #E84C4F;
+//$extraordinary: #eb4b4b;
+//$remarkable: #8847ff;
+$remarkable: #8850FB;
+$contraband: #FCAD46;
+//$contraband: #e4ae39;
+$industrial: #5e98d9;
+
+$weaponColors:  (consumer, $consumer),
+                (industrial, $industrial),
+                (milspec, $milspec),
+                (restricted, $restricted),
+                (classified, $classified),
+                (covert, $covert),
+                (base, $base),
+                (high, $high),
+                (exotic, $exotic),
+                (extraordinary, $extraordinary),
+                (remarkable, $remarkable),
+                (contraband, $contraband);

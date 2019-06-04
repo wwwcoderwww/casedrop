@@ -1,0 +1,26 @@
+//styles for Mac
+
+.mac-lh {
+  &:before {
+    line-height: 37px;
+  }
+  span {
+    &:before {
+      line-height: 36px;
+    }
+  }
+}
+.old-price.mac-lh {
+  span {
+    &:before, &:after {
+      padding-top: 4px;
+    }
+  }
+}
+
+.send-btn.mac-small-btn {
+  line-height: 25px;
+}
+.sell-btn.mac-small-btn {
+  line-height: 25px;
+}

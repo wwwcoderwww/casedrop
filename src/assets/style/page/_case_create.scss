@@ -1,0 +1,637 @@
+@import '../partials/colors.scss';
+.case-creator-page .case-name .input-container {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.case-creator-page .case-name .input-container input {
+	box-sizing: border-box; 
+}
+
+.case-creator-page .case-name .input-container:after {
+	display: none; 
+}
+
+
+.case-creator-page .weapon-item .gradient-item-img {
+	max-width: 166px; 
+}
+
+	.case-creator-page .search-item {
+		position: relative; }
+		.case-creator-page .search-item .search-btn {
+			border: none;
+			outline: none;
+			text-transform: none;
+			background: transparent;
+			color: #FAFBFF;
+			cursor: pointer;
+			position: absolute;
+			right: 10px;
+			top: 8px; }
+		.case-creator-page .search-item .custom-input {
+			border-radius: 0; }
+
+	.case-creator-page .sort-items-header {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+				-ms-flex-align: center;
+						align-items: center;
+		margin: 0 -10px 20px; }
+
+	.case-creator-page .sort-item {
+		width: -webkit-calc(16.66% - 25px);
+		width: calc(16.66% - 25px);
+		margin: 0 10px;
+		color: #FAFBFF; }
+		.case-creator-page .sort-item .custom-dropdown {
+			border-radius: 0;
+			width: 100%; }
+			.case-creator-page .sort-item .custom-dropdown .dropdown-list {
+				top: 0;
+				right: 0;
+				width: 100%;
+				box-sizing: border-box; }
+			.case-creator-page .sort-item .custom-dropdown .dropdown-triangle {
+				display: none; }
+		.case-creator-page .sort-item .dropdown-title {
+			text-align: left;
+			padding: 0 20px;
+			position: relative; }
+			.case-creator-page .sort-item .dropdown-title:after {
+				top: 1px;
+				right: 20px;
+				position: absolute;
+				z-index: 3; }
+			.case-creator-page .sort-item .dropdown-title .rarity-item {
+				padding: 0; }
+		.case-creator-page .sort-item .dropdown-list {
+			padding: 5px 10px; }
+		.case-creator-page .sort-item .dropdown-list-item {
+			padding: 0 10px;
+			margin-bottom: 5px;
+			font-size: 16px; }
+
+	.case-creator-page .sort-item.search-item {
+		width: -webkit-calc(33.33% - 30px);
+		width: calc(33.33% - 30px); }
+
+	.case-creator-page .rarity-item {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		margin-bottom: 5px;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+				-ms-flex-align: center;
+						align-items: center;
+		cursor: pointer;
+		padding: 0; }
+		.case-creator-page .rarity-item:before {
+			content: '';
+			display: inline-block;
+			width: 9px;
+			height: 9px;
+			border-radius: 50%;
+			background: #fff;
+			margin-right: 15px; }
+		.case-creator-page .rarity-item.secret {
+			color: #E74C50; }
+			.case-creator-page .rarity-item.secret:before {
+				background: #E74C50; }
+
+		.case-creator-page .rarity-item.milspec {
+			color: #4b69ff; }
+			.case-creator-page .rarity-item.milspec:before {
+				background: #4b69ff; }
+		.case-creator-page .rarity-item.restricted {
+			color: #8847ff; }
+			.case-creator-page .rarity-item.restricted:before {
+				background: #8847ff; }
+
+				.case-creator-page .rarity-item.restricted {
+			color: #d32ce6; }
+			.case-creator-page .rarity-item.restricted:before {
+				background: #d32ce6; }
+				.case-creator-page .rarity-item.covert {
+			color: #eb4b4b; }
+			.case-creator-page .rarity-item.covert:before {
+				background: #eb4b4b; }
+
+				.case-creator-page .rarity-item.remarkable {
+			color: #8847ff; }
+			.case-creator-page .rarity-item.remarkable:before {
+				background: #8847ff; }
+
+				.case-creator-page .rarity-item.exotic {
+			color: #d32ce6; }
+			.case-creator-page .rarity-item.exotic:before {
+				background: #d32ce6; }
+
+				.case-creator-page .rarity-item.contraband {
+			color: #e4ae39; }
+			.case-creator-page .rarity-item.contraband:before {
+				background: #e4ae39; }
+
+				.case-creator-page .rarity-item.extraordinary {
+			color: #eb4b4b; }
+			.case-creator-page .rarity-item.extraordinary:before {
+				background: #eb4b4b; }
+
+				.case-creator-page .rarity-item.high {
+			color: #4b69ff; }
+			.case-creator-page .rarity-item.high:before {
+				background: #4b69ff; }
+
+		.case-creator-page .rarity-item.class {
+			color: #EE2849; }
+			.case-creator-page .rarity-item.class:before {
+				background: #EE2849; }
+
+		// .case-creator-page .rarity-item.forbidden {
+		//   color: #8850FB; }
+		//   .case-creator-page .rarity-item.forbidden:before {
+		//     background: #8850FB; }
+		// .case-creator-page .rarity-item.army {
+		//   color: #4D6EFB; }
+		//   .case-creator-page .rarity-item.army:before {
+		//     background: #4D6EFB; }
+		.case-creator-page .rarity-item.industrial {
+			color: #5F99D8; }
+			.case-creator-page .rarity-item.industrial:before {
+				background: #5F99D8; }
+		.case-creator-page .rarity-item.consumer {
+			color: #FCAD46 !important; }
+			.case-creator-page .rarity-item.consumer:before {
+				background: #FCAD46; }
+
+	.case-creator-page .sort-list-item:after {
+		content: "\e905";
+		font-family: 'drop2';
+		color: #FAFBFF;
+		font-size: 14px;
+		position: absolute;
+		right: 20px;
+		top: 0;
+		display: inline-block;
+		-webkit-transform: rotate(-90deg);
+				-ms-transform: rotate(-90deg);
+						transform: rotate(-90deg); }
+
+	.case-creator-page .odd-info {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+				-ms-flex-pack: end;
+						justify-content: flex-end;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+				-ms-flex-align: center;
+						align-items: center;
+		text-transform: uppercase;
+		-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+						flex-wrap: wrap; }
+
+	.case-creator-page .create-case-btn {
+		min-width: 185px;
+		margin-left: 30px; }
+
+	.case-creator-page .odd-total {
+		margin: 10px 0 10px 30px; }
+
+	.case-creator-page .sort-btn {
+		background: rgba(0, 0, 0, 0.2);
+		height: 35px;
+		padding: 0 20px;
+		line-height: 34px;
+		color: #D2D2D2;
+		position: relative;
+		cursor: pointer; }
+		.case-creator-page .sort-btn:after {
+			content: "\e905";
+			font-family: drop2;
+			position: absolute;
+			right: 20px;
+			top: 0;
+			font-size: 16px;
+			color: #D2D2D2;
+			display: inline-block; }
+		.case-creator-page .sort-btn.down:after {
+			-webkit-transform: rotate(180deg);
+					-ms-transform: rotate(180deg);
+							transform: rotate(180deg); }
+
+	.case-creator-page .block-wrapper {
+		background: rgba(0, 0, 0, 0.1);
+		padding: 25px 20px;
+		margin-top: 50px;
+		box-sizing: border-box; }
+		.case-creator-page .block-wrapper .board-content-wrapper {
+			margin: 0 -10px; }
+		.case-creator-page .block-wrapper .weapon-item {
+			// margin: 0 10px 20px;
+			width: -webkit-calc(16.66% - 20px);
+			width: calc(16.66% - 20px); }
+
+	.case-creator-page .block-title {
+		color: #FAFBFF;
+		text-transform: uppercase;
+		font-family: SofiaProMedium, sans-serif;
+		text-align: center;
+		margin-bottom: 15px; }
+
+	.sort-items-body {
+		max-height: 545px;
+		overflow-y: auto;
+		box-sizing: border-box; }
+		.sort-items-body .board-content-wrapper {
+			padding: 0; }
+
+	.odds-row {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 15px 40px 15px 50px;
+		background: rgba(0, 0, 0, 0.15);
+		font-family: SofiaProRegular, sans-serif;
+		font-size: 16px;
+		color: #FAFBFF;
+		margin-bottom: 20px;
+		cursor: pointer;
+		input[type=number] {
+			display: none;
+		}
+		.odd-price {
+			max-width: 60px;
+			overflow: hidden;
+			white-space: nowrap;
+		}
+		&.selected {
+			border-left: 2px solid #7568e7;
+			box-sizing: border-box
+		}
+	}
+		.odds-row .odd-img {
+			position: relative; }
+			.odds-row .odd-img .weapon-item {
+				width: 100px;
+				height: 100px;
+				margin: 0;
+				background: transparent;
+				box-shadow: none;
+				margin-right: 50px;
+				padding-top: 0; }
+				.odds-row .odd-img .weapon-item .bg-1 {
+					width: 16px;
+					height: 16px; }
+				.odds-row .odd-img .weapon-item .bg-2 {
+					width: 36px;
+					height: 36px;
+					opacity: .25; }
+				.odds-row .odd-img .weapon-item .bg-3 {
+					width: 53px;
+					height: 53px;
+					opacity: .053; }
+				.odds-row .odd-img .weapon-item .bg-4 {
+					width: 76px;
+					height: 76px;
+					opacity: .03; }
+				.odds-row .odd-img .weapon-item .circle {
+					width: 76px;
+					height: 76px; }
+				.odds-row .odd-img .weapon-item .gradient-item-img {
+					max-width: 80px;
+					max-height: 100px; }
+		.odds-row .odd-name {
+			text-align: left; }
+		.odds-row .odd-delete {
+			cursor: pointer;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 40px;
+			-webkit-transition: all .5s;
+			transition: all .5s; }
+			.odds-row .odd-delete:hover {
+				background: rgba(255, 255, 255, 0.05); }
+		.odds-row .odd-plus {
+			margin: 0 50px;
+			white-space: nowrap;
+		}
+		.odds-row .odd-delete {
+			margin-left: 30px; }
+		.odds-row .left-block, .odds-row .right-block {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+					-ms-flex-align: center;
+							align-items: center; }
+		.odds-row .left-block {
+			-webkit-box-pack: start;
+			-webkit-justify-content: flex-start;
+					-ms-flex-pack: start;
+							justify-content: flex-start;
+			width: 65%;
+			-webkit-box-flex: 1;
+			-webkit-flex-grow: 1;
+					-ms-flex-positive: 1;
+							flex-grow: 1; }
+		.odds-row .right-block {
+			-webkit-box-pack: end;
+			-webkit-justify-content: flex-end;
+					-ms-flex-pack: end;
+							justify-content: flex-end;
+			width: 35%;
+			min-width: 256px;
+			-webkit-box-flex: 1;
+			-webkit-flex-grow: 1;
+					-ms-flex-positive: 1;
+							flex-grow: 1; }
+	.odds-row {
+		.weapon-default__circle, .weapon-default__bg--1 {
+			width: 76px;
+			height: 76px;
+		}
+		.weapon-default__bg--2 {
+			width: 53px;
+			height: 53px;
+		}
+		.weapon-default__bg--3 {
+			width: 36px;
+			height: 36px;
+		}
+		.weapon-default__bg--4 {
+			width: 16px;
+			height: 16px;
+		}
+	}
+
+	.choose-case-picture-wrapper .radio-weapon-item .full-weapon-name {
+		display: none; }
+
+	.choose-case-picture-wrapper .radio-weapon-item .gradient-item-bg {
+		top: 50%; }
+
+	.choose-case-picture-wrapper .radio-weapon-item .gradient-item-img {
+		height: 180px;
+		top: 50%; }
+		.case-creator-page .body-items .weapon-item {
+			margin: 0 10px 20px;
+	}
+
+	@media screen and (max-width: 1750px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: -webkit-calc(20% - 20px);
+			width: calc(20% - 20px); }
+		.case-creator-page .sort-item.search-item {
+			width: -webkit-calc(20% - 25px);
+			width: calc(20% - 25px); }
+		.case-creator-page .sort-item {
+			width: -webkit-calc(20% - 26px);
+			width: calc(20% - 26px); } }
+
+	@media screen and (max-width: 1439px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: -webkit-calc(25% - 20px);
+			width: calc(25% - 20px); }
+		.case-creator-page .sort-items-header {
+			-webkit-flex-wrap: wrap;
+					-ms-flex-wrap: wrap;
+							flex-wrap: wrap;
+			margin-bottom: 0; }
+		.case-creator-page .sort-item.search-item {
+			width: -webkit-calc(25% - 25px);
+			width: calc(25% - 25px); }
+		.case-creator-page .sort-item {
+			width: -webkit-calc(25% - 25px);
+			width: calc(25% - 25px);
+			margin-bottom: 20px; } }
+
+	@media screen and (max-width: 1199px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: -webkit-calc(33.33% - 20px);
+			width: calc(33.33% - 20px); }
+		.case-creator-page .sort-item.search-item {
+			width: -webkit-calc(33.33% - 30px);
+			width: calc(33.33% - 30px); }
+		.case-creator-page .sort-item {
+			width: -webkit-calc(33.33% - 30px);
+			width: calc(33.33% - 30px); }
+		.odds-row .odd-plus {
+			margin: 0 20px; }
+		.odds-row .odd-delete {
+			margin-left: 20px; }
+		.odds-row .odd-img .weapon-item {
+			margin-right: 30px; }
+		.odds-row .left-block {
+			width: 50%; } }
+
+	@media screen and (min-width: 769px) and (max-width: 900px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: -webkit-calc(50% - 20px);
+			width: calc(50% - 20px); }
+		.case-creator-page .sort-item.search-item {
+			width: -webkit-calc(50% - 35px);
+			width: calc(50% - 35px); }
+		.case-creator-page .sort-item {
+			width: -webkit-calc(50% - 35px);
+			width: calc(50% - 35px); } }
+
+	@media screen and (max-width: 767px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: -webkit-calc(50% - 20px);
+			width: calc(50% - 20px); }
+		.case-creator-page .sort-item.search-item {
+			width: -webkit-calc(50% - 35px);
+			width: calc(50% - 35px); }
+		.case-creator-page .sort-item {
+			width: -webkit-calc(50% - 35px);
+			width: calc(50% - 35px); } }
+
+	@media screen and (max-width: 574px) {
+		.case-creator-page .sort-item.search-item {
+			width: 100%; }
+		.case-creator-page .sort-item {
+			width: 100%; }
+		.case-creator-page .sort-item.cost-sort, .case-creator-page .sort-item.name-sort {
+			width: -webkit-calc(50% - 20px);
+			width: calc(50% - 20px); }
+			.case-creator-page .sort-item.cost-sort .sort-btn, .case-creator-page .sort-item.name-sort .sort-btn {
+				padding: 0 10px; }
+				.case-creator-page .sort-item.cost-sort .sort-btn:after, .case-creator-page .sort-item.name-sort .sort-btn:after {
+					right: 10px; }
+		.odds-row {
+			padding: 15px 20px; }
+			.odds-row .left-block {
+				margin-bottom: 20px; }
+		.case-creator-page .odd-total {
+			margin-left: 25px; }
+		.case-creator-page .create-case-btn {
+			margin: 0 auto; }
+		.odds-row {
+			.odd-delete {
+				margin-left: 10px;
+				margin-right: -10px;
+			}
+			.custom-counter {
+				width: 70px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 374px) {
+		.case-creator-page .block-wrapper .board-content-wrapper .weapon-item {
+			width: 100%; }
+		.case-creator-page .sort-item.cost-sort, .case-creator-page .sort-item.name-sort {
+			width: 100%; }
+			.case-creator-page .sort-item.cost-sort .sort-btn, .case-creator-page .sort-item.name-sort .sort-btn {
+				padding: 0 20px; }
+				.case-creator-page .sort-item.cost-sort .sort-btn:after, .case-creator-page .sort-item.name-sort .sort-btn:after {
+					right: 20px; } }
+
+	@media screen and (max-width: 350px) {
+		.odds-row {
+			padding: 15px 10px; }
+		.odds-row .odd-delete {
+			margin-left: 5px; }
+		.odds-row .right-block {
+			margin-left: -20px; } }
+
+	@media screen and (max-width: 1400px) and (min-width: 1100px) and (max-height: 768px) and (min-height: 600px) {
+		.main-menu .menu-item {
+			margin-bottom: 5px; }
+		.diagram-info-item {
+			padding: 5px 0 7px 0; }
+		.user-info-block {
+			margin-bottom: 7px; }
+		.diagram-user-info {
+			top: 10px; } }
+
+
+.weapon-default {
+	width: calc(16.66% - 30px);
+	height: 215px;
+	margin: 15px;
+	padding-top: 15px;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	position: relative;
+	font-family: SofiaProSemiBold, sans-serif;
+	
+	&__name {
+		text-transform: capitalize;
+		//font-family: SofiaProSemiBold, sans-serif;
+		font-size: 16px;
+		text-align: center;
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		bottom: 15px;
+		width: 90%;
+	}
+	
+	&__location {
+		font-size: 16px;
+		color: #fff;
+		text-align: center;
+	}
+	
+	
+	&__circle {
+		width: 130px;
+		height: 130px;
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%) rotate(198deg);
+	}
+	
+	&__img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 75%;
+		z-index: 0;
+		pointer-events: none;
+	}
+	
+	&__bg-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	&__bg {
+		border-radius: 50%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		animation: inner-circle .5s;
+		transform: translate(-50%, -50%);
+	}
+	
+	&__bg--4 {
+		width: 28px;
+		height: 28px;
+		animation-delay: .2s;
+		transition: all .5s;
+	}
+	&__bg--3 {
+		width: 62px;
+		height: 62px;
+		opacity: .25;
+		animation-delay: .4s;
+		transition: all .5s;
+	}
+	&__bg--2 {
+		width: 90px;
+		height: 90px;
+		opacity: .053;
+		animation-delay: .6s;
+		transition: all .5s;
+	}
+	&__bg--1 {
+		width: 130px;
+		height: 130px;
+		opacity: .03;
+		animation-delay: .8s;
+		transition: all .5s;
+	}
+}
+	
+@each $name, $color in $weaponColors {
+	.weapon-default--#{$name} {
+		.weapon-default__bg {
+			background: $color;
+		}
+		.weapon-default__bg-wrapper {
+			path:nth-child(2) {
+				stroke: $color;
+			}
+		}
+	}
+}
+	
+@media screen and (max-width: 767px){
+	.weapon-default__img {
+		width: 50%;
+	}
+}
